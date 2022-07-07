@@ -1,32 +1,22 @@
 #include "main.h"
 
 /**
- *   _isalpha - main function
+ * _isalpha  -  returns 1, if c is a letter uppercase, lowercase
  *
- *   *
- *
- *    * @c: character to compare
- *
- *     *
- *
- *      *
- * Return: returns 0 or 1 depending on condition
- *
- *
- *
+ * @c: The int to print
+ * Return: Always 0
  */
+
 int _isalpha(int c)
-
 {
-
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-
+	if ((c > 'a' && c < 'z') || (c > 'A' && c < 'Z'))
 	{
-
 		return (1);
-
 	}
 
-	return (0);
-
+	else
+	{
+		return (0);
+	}
 }
+
