@@ -3,7 +3,7 @@
 /**
  * mul  -  multiplier
  * @a: int to mult
- * @b int to mult
+ * @b: int to mult
  *Return: success and integer
  */
 
